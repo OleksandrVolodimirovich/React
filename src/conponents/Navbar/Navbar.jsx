@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import s from "./Navbar.module.css";
 
 const Navbar = () => {
@@ -16,7 +16,7 @@ const Navbar = () => {
 			</div>
 			<div className={s.item}>
 				<NavLink
-					to="/messages"
+					to="/dialogs"
 					className={activeLink}
 				>
 					Messages
