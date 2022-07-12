@@ -27,8 +27,6 @@ const MyPosts = () => {
 			</div>
 			<div className={s.posts}>
 				{postsElements}
-				{/* <Post message={posts[0].message} like={posts[0].likesCount} />
-				<Post message={posts[1].message} like={posts[1].likesCount} /> */}
 			</div>
 		</div>
 	);
