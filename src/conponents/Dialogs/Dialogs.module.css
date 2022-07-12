@@ -5,6 +5,9 @@
 .dialogsItem{
   padding: 10px;
 }
+.dialogsItem .dialog a{
+  color: #fff;
+}
 .dialogsItem .active{
   color: rgb(40, 207, 157);
 }
@@ -14,6 +17,6 @@
 .messages{
   padding: 10px;
 }
-.massage{
-
+.messages .message{
+  color: #fff;
 }
