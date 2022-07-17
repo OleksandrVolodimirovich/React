@@ -3,8 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import state from './redux/state';
+import { addPost } from './redux/state';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+addPost('Добавив новий пост');
 
 root.render(
   <React.StrictMode>
