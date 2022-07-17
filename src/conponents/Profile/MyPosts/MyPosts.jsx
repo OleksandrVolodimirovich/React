@@ -7,15 +7,20 @@ const MyPosts = (props) => {
 		<Post id={p.id} message={p.message} like={p.likesCount} key={p.id}/>
 	));
 
+		let addPost = () => {
+			let text = document.getElementById('new-post').value;
+			alert(text)
+		}
+
 	return (
 		<div className={s.postsBlock}>
 			<h3>my posts</h3>
 			<div>
 				<div>
-					<textarea></textarea>
+					<textarea id="new-post"></textarea>
 				</div>
 				<div>
-					<button>Add post</button>
+					<button onClick={addPost}>Add post</button>
 				</div>
 			</div>
 			<div className={s.posts}>
