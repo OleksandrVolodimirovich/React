@@ -8,6 +8,7 @@ let state = {
       { id: 3, message: "I liv in Lviv.", likesCount: 45 },
       { id: 4, message: "Do you love Ukraine?", likesCount: 30 },
     ],
+    newPostText: "New project",
     dialogs: [
       { id: 1, name: "Dmytro" },
       { id: 2, name: "Petro" },
